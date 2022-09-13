@@ -7,11 +7,19 @@
     <authors>$author$</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <!-- <icon>icon.png</icon> -->
-    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <icon>images\icon.png</icon>
+    <projectUrl>https://github.com/BouRHooD/WPFTextboxAutocompleteSuggestion</projectUrl>
     <description>$description$</description>
     <releaseNotes>Initial Release</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>WPF C# .Net TextBox DataGrid Autocomplete Suggestion MVVM</tags>
+  
+	<dependencies>
+      <group targetFramework=".NETFramework4.7.2" />
+    </dependencies>
   </metadata>
+
+   <files>
+	   <file src="..\icon.png" target="images\" />
+   </files>
 </package>
