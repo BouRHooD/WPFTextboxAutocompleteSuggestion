@@ -32,7 +32,6 @@
 		<TextBox behaviors:BehaviorAutocompleteSuggestion.AutoCompleteItemsSource="{Binding TestItems}" />
 	```
 2. Проверьте результат
-
 ![](https://user-images.githubusercontent.com/51342266/190638625-161d1e21-635a-4207-9623-9cf3d9463071.gif)
 	
 	
