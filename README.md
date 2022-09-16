@@ -31,5 +31,5 @@
 	``` csharp
 		<TextBox behaviors:BehaviorAutocompleteSuggestion.AutoCompleteItemsSource="{Binding TestItems}" />
 	```
-	
-![](https://github.com/BouRHooD/WPFTextboxAutocompleteSuggestion/tree/master/_Docs/_Resources/_TestApp_TextBox.gif)
+
+![](https://user-images.githubusercontent.com/51342266/190638625-161d1e21-635a-4207-9623-9cf3d9463071.gif)
