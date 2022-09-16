@@ -28,7 +28,7 @@
 
 1. Создайте TextBox и привяжите «AutoCompleteItemsSource» к коллекции ```IEnumerable<String>```
 
-	``` 
+	``` csharp
 		<TextBox behaviors:BehaviorAutocompleteSuggestion.AutoCompleteItemsSource="{Binding TestItems}" />
 	```
 2. ![](https://user-images.githubusercontent.com/51342266/190638625-161d1e21-635a-4207-9623-9cf3d9463071.gif)
