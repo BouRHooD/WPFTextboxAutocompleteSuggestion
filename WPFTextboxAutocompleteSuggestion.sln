@@ -5,9 +5,28 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTextboxAutocompleteSuggestion", "WPFTextboxAutocompleteSuggestion\WPFTextboxAutocompleteSuggestion.csproj", "{D559EE31-63D1-4693-838C-436D24623108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp_DataGrid", "TestApp_DataGrid\TestApp_DataGrid.csproj", "{148A09C9-7BE5-4B21-B694-131541F23620}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Tests", "_Tests", "{42B1BFEE-E22C-4234-8483-83D2D5774B34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp_TextBox", "TestApp_TextBox\TestApp_TextBox.csproj", "{805C9F62-7339-4D7A-8117-3CD202656320}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp_DataGrid", "_Tests\TestApp_DataGrid\TestApp_DataGrid.csproj", "{148A09C9-7BE5-4B21-B694-131541F23620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp_TextBox", "_Tests\TestApp_TextBox\TestApp_TextBox.csproj", "{805C9F62-7339-4D7A-8117-3CD202656320}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Docs", "_Docs", "{2D6031C7-05DA-409A-B722-9477E2A3D184}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Readmes", "_Readmes", "{DB09BFDF-82F4-41A5-BE2A-712D79266CFB}"
+	ProjectSection(SolutionItems) = preProject
+		_Docs\_Readmes\README.en.md = _Docs\_Readmes\README.en.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Resources", "_Resources", "{5CF3E401-1008-41D2-AAAA-F8CFA2CD6796}"
+	ProjectSection(SolutionItems) = preProject
+		_Docs\_Resources\_TestApp_TextBox.gif = _Docs\_Resources\_TestApp_TextBox.gif
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{5F95D46E-927C-40A3-8EBF-47E628DBE664}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +49,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{148A09C9-7BE5-4B21-B694-131541F23620} = {42B1BFEE-E22C-4234-8483-83D2D5774B34}
+		{805C9F62-7339-4D7A-8117-3CD202656320} = {42B1BFEE-E22C-4234-8483-83D2D5774B34}
+		{DB09BFDF-82F4-41A5-BE2A-712D79266CFB} = {2D6031C7-05DA-409A-B722-9477E2A3D184}
+		{5CF3E401-1008-41D2-AAAA-F8CFA2CD6796} = {2D6031C7-05DA-409A-B722-9477E2A3D184}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9EB4AC0A-216F-4288-B5BD-5289E7EDC473}
