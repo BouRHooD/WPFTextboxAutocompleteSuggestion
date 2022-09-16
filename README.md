@@ -32,5 +32,4 @@
 		<TextBox behaviors:BehaviorAutocompleteSuggestion.AutoCompleteItemsSource="{Binding TestItems}" />
 	```
 	
-# Результат с TextBox	
-![](https://github.com/BouRHooD/WPFTextboxAutocompleteSuggestion/_Docs/Resources/_TestApp_TextBox.gif)
+![](https://github.com/BouRHooD/WPFTextboxAutocompleteSuggestion/tree/master/_Docs/_Resources/_TestApp_TextBox.gif)
