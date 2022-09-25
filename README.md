@@ -1,8 +1,13 @@
 # WPFTextboxAutocompleteSuggestion
 ======================
 
+Проект сделан на основе [WPFTextBoxAutoComplete](https://github.com/Nimgoble/WPFTextBoxAutoComplete), который не обновлялся с 2017 года. 
+Были исправлены ошибки работы с новыми версиями net framework, а также добавлена работа с DataGrid. 
+
+======================
+
 - [Русский](README.md)
-- [English](README.en.md)
+- [English](https://github.com/BouRHooD/WPFTextboxAutocompleteSuggestion/blob/master/_Docs/_Readmes/README.en.md)
 
 Прикрепленное поведение для элемента управления TextBox WPF, которое предоставляет предложения автозаполнения из заданной коллекции. 
 Подобное поведение есть в штатном ComboBox (в режиме IsEditable="True").
